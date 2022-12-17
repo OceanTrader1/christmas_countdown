@@ -1,8 +1,8 @@
-/tests
-/dist
+__pycache__/
+tests/
+dist/
 *.pyproject
 *.pyproject*
 *.lock
-*.ui
 *.python-version
 *.idea
