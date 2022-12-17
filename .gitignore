@@ -1,0 +1,8 @@
+/tests
+/dist
+*.pyproject
+*.pyproject*
+*.lock
+*.ui
+*.python-version
+*.idea

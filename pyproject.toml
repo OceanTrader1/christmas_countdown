@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "Christmas Countdown"
+version = "0.0.1"
+description = "For those who can't wait until it's Christmas! :) "
+authors = ["Sam <69881238+OceanTrader1@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+pyqt6 = "^6.4.0"
+pyside6 = "^6.4.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+cx-freeze = "^6.13.1"
+auto-py-to-exe = "^2.26.0"
+setuptools = "^65.6.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
